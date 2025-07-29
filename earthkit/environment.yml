@@ -1,0 +1,21 @@
+name: earthkit
+channels:
+  - conda-forge
+dependencies:
+  - udunits2
+  - earthkit-data
+  - matplotlib
+  - xarray
+  - numpy
+  - pandas
+  - eccodes
+  - ecflow
+  - pip
+  - sqlite
+  - pip:
+      - cf-units
+      - tracksuite
+      - pyflow-workflow-generator
+      - pyflow-wellies
+      - earthkit-transforms
+      - earthkit-maps

@@ -1,0 +1,20 @@
+name: ecflow-env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - ecflow
+  - cuda-cudart
+  - cuda-version=12
+  - pip
+  - jupyterlab
+  - jinja2
+  - requests
+  - pytest
+  - pygraphviz
+  - pip:
+    - pyflow-workflow-generator >= 3.4.1
+    - tracksuite>=0.4.1
+    - pyflow-wellies  
+variables:
+  QT_MAC_WANTS_LAYER: 1

@@ -1,0 +1,15 @@
+Testing out the usage of wellies-quickstart, tracksuite, ecflow, ecflow_ui
+
+$ wellies-quickstart hello-world
+$ cd hello-world
+$ ./build.sh user
+
+$ ecflow_client --host localhost --port 3141 --load /home/vscode/pyflow/hello_world/hello_world.def
+
+
+Testing out pyflow
+
+https://pyflow-workflow-generator.readthedocs.io/en/latest/content/introductory-course/getting-started.html
+
+$ python hello_pyflow.py
+

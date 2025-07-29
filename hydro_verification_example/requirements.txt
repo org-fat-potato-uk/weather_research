@@ -1,0 +1,7 @@
+earthkit-data
+numpy
+pandas
+matplotlib
+scipy
+pyflow-workflow-generator
+pyflow-wellies

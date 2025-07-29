@@ -1,0 +1,21 @@
+{
+  "name": "Weather Verification",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite": {
+      "webPort": "6080",
+      "vncPort": "5901",
+      "password": "password"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}

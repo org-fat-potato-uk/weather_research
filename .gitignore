@@ -1,0 +1,7 @@
+ecflow/*.log
+ecflow/nohup.out
+ecflow/.devcontainer/noop.txt
+*.pyc
+ecflow/scratch/
+ecflow/tracking_log.txt
+*.grib
