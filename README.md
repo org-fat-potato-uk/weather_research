@@ -3,7 +3,7 @@
 This repository contains example projects and workflow templates for hydrological and meteorological data verification using [EarthKit](https://github.com/ecmwf/earthkit), [PyFlow](https://github.com/ecmwf/pyflow), and [Wellies](https://github.com/ecmwf/pyflow-wellies).
 
 > **Disclaimer:**  
-> This repository contains internal research, fact-finding, and experimental workflows. The code and examples provided are for demonstration and exploration purposes only. They are **not** intended for production use and do **not** represent production-quality code or official ECMWF workflows.
+> This repository contains internal research, fact-finding, and experimental workflows. The code and examples provided are for demonstration and exploration purposes only. They are **not** intended for production use and do **not** represent production-quality code or official workflows.
 
 ## Structure
 
