@@ -1,8 +1,8 @@
-from pyflow import Workflow, Task
+from pyflow import Task, Suite
 from tasks.verify import run
 
 def hydro_verification_suite():
-    suite = Workflow("hydro_verification")
+    suite = Suite("hydro_verification")
     
     # Add a single task that runs the verification logic
     suite.add(Task("verify", run))

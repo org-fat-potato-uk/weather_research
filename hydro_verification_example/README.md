@@ -6,11 +6,21 @@ This project demonstrates a simple **hydrological verification** workflow using:
 - Freely available sample data
 
 ## How to Run
+
+To run this project as a script
+
 ```bash
-python3 -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
+```
 
+To run this project as a Pyflow:
 
-The files are collapsed into one verify file for the pyflow example
+```bash
+pip install -r requirements.txt
+python suite.py
+```
+
+## Notes
+
+- This example is intended for demonstration

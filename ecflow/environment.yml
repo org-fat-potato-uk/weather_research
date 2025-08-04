@@ -4,7 +4,6 @@ channels:
   - nodefaults
 dependencies:
   - ecflow
-  - cuda-cudart
   - cuda-version=12
   - pip
   - jupyterlab
